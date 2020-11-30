@@ -11,7 +11,7 @@ body{
     margin-top: 10px;
 }
 .nav-link.active{
-	background-color: lightgrey !important;
+	background-color:#f5c787 !important;
 }
 
 .prenota-container{
