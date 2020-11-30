@@ -5,12 +5,20 @@ body{
 .nav-item{
 	padding-right: 12px;
 	padding-left: 12px;
-	background-color: #0D0C0C;
+}
+.navbar-light .navbar-nav .nav-link {
+     color:  #f5c787; 
 }
 .flag{
 	max-height: 20px;
 	max-width: 20px;
 	margin-top: 10px;
+	display: inline-block
+}
+.navbar-toggler{
+	line-height: 1;
+	background-color:  #F5C787;
+	border: #f5c787; 
 }
 
 .navbar-collapse {
@@ -20,11 +28,22 @@ background-color: #0D0C0C;
 .navbar{
 	background-color: #0D0C0C;	
 }
-
-.navbar-light .navbar-brand {
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #F5C787;
 }
-
+.navbar-light .navbar-brand {
+	color: #F5C787;
+} 
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+	white-space: nowrap;
+	color: #F5C787;
+}
 .navbarText{
 	color: #F5C787;
 }
