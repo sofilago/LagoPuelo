@@ -12,12 +12,51 @@ body{
 	max-width: 20px;
 	margin-top: 10px;
 }
-.nav-link.active{
-	background-color:#F5C787;
+
+.navbar-collapse {
+background-color: #0D0C0C;
+}
+
+.navbar{
+	background-color: #0D0C0C;	
+}
+
+.navbar-light .navbar-brand {
+    color: #F5C787;
+}
+
+.navbarText{
+	color: #F5C787;
+}
+
+.nav-link {
+	color: #F5C787;
+}
+
+.bg-light {
+	background-color: #0D0C0C;
+}
+
+
+.col-md-6 {
+	background-color: #F5C787;
+}
+
+.col-md-4 .card-body {
+	background-color: #F5C787;
+}
+
+.list-group-item {
+	background-color: #F5C787;
+}
+
+.card-img-top {
+	background-color: #F5C787;
 }
 
 .reserve-container{
 	position: relative;
+	background-color: #F5C787;
 }
 .card-body{
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
@@ -103,4 +142,8 @@ footer{
 	bottom: 0px;
 	padding-top: 20px;
 	
+}
+
+.row {
+	background-color: #F5C787;
 }
