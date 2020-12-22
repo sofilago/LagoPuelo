@@ -1,0 +1,24 @@
+.imgtitle {
+    image-rendering: auto;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.hel{
+    padding-top: 60;
+    font-size: 60px;
+   text-align: center;
+   padding-bottom: 30;
+}
+.cartas{
+    margin-left: 87;
+   display: inline-block;
+   margin-right: 50;
+   padding-bottom: 30;
+    
+}
+.p{
+    padding-bottom: 15;
+}
