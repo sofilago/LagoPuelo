@@ -1,5 +1,5 @@
 body{
-	 font-family:'Libre Baskerville', serif;
+	 font-family: "caveat" ;
 	 font-size: 20px;
 	 background-color: #0D0C0C;
 	
@@ -24,6 +24,7 @@ body{
 
 .navbar-collapse {
 background-color: #0D0C0C;
+
 }
 
 .navbar{
@@ -84,6 +85,18 @@ padding-top: 20px;
 padding-right: 150px;
 padding-left: 150;
 
+}
+.sliderImg1{
+	width: auto;
+	height: auto; 
+	padding-top: 20px;
+	padding-right: 150px;
+	padding-left: 245;
+	/* padding-bottom: 25; */
+	
+}
+.correo{
+	font-size: 16;
 }
 
 .reserve-container{
@@ -178,7 +191,7 @@ padding-left: 150;
 
 .footer{
 	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-top: 1px;
 	padding-top: 20px;
 	
 }
@@ -207,4 +220,13 @@ footer{
 	margin-top: 80;
 	color: #F5C787;
 	background-color: #F5C787;
+}
+.gm-err-container {
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-color: #e0e0e0;
+    position: relative;
+    left: 0;
+	top: 0;
 }
