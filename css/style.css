@@ -1,7 +1,27 @@
+
+
 body{
-	 font-family: "caveat" ;
+	 
+	 font-family: 'Bellota Text', cursive;
 	 font-size: 20px;
-	 background-color: #0D0C0C;
+	 background-color: #FFF;
+	
+}
+
+/* Elementos del Navbar */
+
+.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+	list-style: none;
+	font-family: 'Barrio', cursive;
 	
 }
 .nav-item{
@@ -9,40 +29,40 @@ body{
 	padding-left: 12px;
 }
 .navbar-light .navbar-nav .nav-link {
-     color:  #f5c787; 
-}
-.flag{
-	max-height: 20px;
-	max-width: 30px;
-	margin-top: 12px;
+	 color:  #f5c787; 
+	 font-size: 23px;
+	
 }
 .navbar-toggler{
-	line-height: 1;
 	background-color:  #0D0C0C;
 	border: #f5c787; 
 }
 
 .navbar-collapse {
-background-color: #0D0C0C;
-
+	background-color: #FFF;
 }
 
+.fixed-top {
+    position: static;
+    top: 0;
+    right: 0;
+    left: 0;
+   
+}
 .navbar{
 	background-color: "rgba(255, 255, 255, 0.7)",
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #F5C787;
+	color: #F5C787;
+	
 }
 .navbar-light .navbar-brand {
 	color: #F5C787;
 } 
 .navbar-brand {
     display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
+	padding-top: 5;
     font-size: 1.25rem;
-    line-height: inherit;
 	white-space: nowrap;
 	color: #F5C787;
 }
@@ -55,6 +75,49 @@ background-color: #0D0C0C;
 
 .nav-link {
 	color: #F5C787;
+}
+
+/* Banderas */
+.flag{
+	max-height: 20px;
+	max-width: 30px;
+	margin-top: 12px;
+	border-radius: 2px;
+}
+
+
+/* Titulo Principal */
+
+.titulo {
+	color: #F5C787;
+	font-size: 50;
+	text-align: center;
+	font-style:inherit ;
+	font-family: 'Barrio', cursive;
+}
+
+/* HR */
+
+.titulo2 {
+	margin-top: 0px;
+	background-color: #F5C787;
+	
+}
+/* Final del NavBar */
+
+
+/* HELADOS.HTML */
+
+.tituloHelados{
+	color: #F5C787;
+	font-size: 50;
+	text-align: center;
+	font-style:inherit ;
+	font-family: 'Barrio', cursive;
+}
+
+.sliderImgHelados{
+	margin-left: 260px;
 }
 
 .bg-light {
@@ -79,21 +142,14 @@ background-color: #0D0C0C;
 }
 
 .sliderImg {
-width: 100%;
-height: 100%; 
-padding-top: 20px;
-padding-right: 150px;
-padding-left: 150;
 
-}
-.sliderImg1{
-	width: auto;
-	height: auto; 
+	width: 70%;
+	height: 80%; 
 	padding-top: 20px;
-	padding-right: 150px;
-	padding-left: 245;
-	/* padding-bottom: 25; */
-	
+	margin-left: 219;
+	margin-right: 50;
+	padding-bottom: 15;
+
 }
 .correo{
 	font-size: 16;
@@ -209,18 +265,7 @@ footer{
 .row {
 	background-color: #F5C787;
 }
-.titulo {
-	color: #F5C787;
-	font-size: 50;
-	padding-top: 15;
-	text-align: center;
-	font-style:inherit ;
-}
-.titulo2 {
-	margin-top: 80;
-	color: #F5C787;
-	background-color: #F5C787;
-}
+
 .gm-err-container {
     height: 100%;
     width: 100%;
