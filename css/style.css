@@ -135,11 +135,11 @@ body{
 	padding-top: 35px;
 }
 .tituloHelados2{
-	display: grid;
 	text-align: center;
 }
 
 .sliderImgHelados{
+	
 	border-radius: 20px;
 	padding-bottom: 10px;
 	padding-top: 5px;
@@ -149,14 +149,14 @@ body{
 	
 }
 .ordenhelados{
-
+	
+	/* display: grid;
+	justify-content: center;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
-	display: grid;
-	justify-content: center;
-	background-color: #F5C787;
-	margin-left: 86;
-	margin-right: 85;
+	
+	background-color: #F5C787; */
+	
 }
 .img-fluidhelados {
     max-width: 100%;
