@@ -134,7 +134,9 @@ body{
 	font-family: 'Barrio', cursive;
 	padding-top: 35px;
 }
-.tituloHelados2{
+.tituloHelados2 {
+	padding-top: 25px;
+	padding-bottom: 25px;
 	text-align: center;
 }
 
@@ -148,16 +150,7 @@ body{
 	max-width: 100%;
 	
 }
-.ordenhelados{
-	
-	/* display: grid;
-	justify-content: center;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	
-	background-color: #F5C787; */
-	
-}
+
 .img-fluidhelados {
     max-width: 100%;
 	height: auto;
